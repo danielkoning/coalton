@@ -99,7 +99,8 @@
                              (:file "vector")
                              (:file "slice")
                              (:file "hashtable")
-                             (:file "graph")))
+                             (:file "graph")
+                             (:file "more-instances")))
                (:file "toplevel-environment")))
 
 (asdf:defsystem #:coalton/tests
