@@ -415,6 +415,11 @@
            (any f xs)))
       ((Nil) False)))
 
+  (declare split (Char -> String -> (List String)))
+  (define (split c str)
+    (lisp (List String) (c str)
+      (cl-list-to-coalton (uiop:split-string str :separator `(,c)))))
+
   ;;
   ;; List instances
   ;;

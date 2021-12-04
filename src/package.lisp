@@ -572,6 +572,7 @@
    #:product
    #:all
    #:any
+   #:split
    #:cl-list-to-coalton
    #:coalton-to-cl-list)
   ;; Tuple
